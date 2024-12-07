@@ -10,6 +10,16 @@ import pydeck as pdk
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 
+import warnings
+
+# Silenciar SettingWithCopyWarning
+warnings.filterwarnings("ignore", category=pd.errors.SettingWithCopyWarning)
+
+# Silenciar FutureWarning
+warnings.filterwarnings("ignore", category=FutureWarning)
+
+# Silenciar UserWarning de geometrías
+warnings.filterwarnings("ignore", message="Geometry is in a geographic CRS") 
 
 #######################
 # Page configuration
