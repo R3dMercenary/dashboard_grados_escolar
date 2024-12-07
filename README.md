@@ -4,7 +4,7 @@
 
 # Dashboard Project
 This project contains an interactive dashboard developed in Streamlit that analyzes literacy, alcohol consumption habits, and mental health in Mexico.
-(Streamlit App)[https://dashboardgradosescolar-48v2pfuc6gqdz87wf63icb.streamlit.app/]
+[Streamlit App](https://dashboardgradosescolar-48v2pfuc6gqdz87wf63icb.streamlit.app/)
 ## **Requirements**
 
 Before starting, make sure you have the following installed::
